@@ -23,7 +23,7 @@ const App = () => {
   </div>
 </div>
 <Route path="/easprivacypolicy" element={<PrivacyPolicy />} />
-<Route path="/termsofservice" element={<TermsOfService />} />
+<Route path="/eastermsofservice" element={<TermsOfService />} />
 </BrowserRouter>
 
   )
