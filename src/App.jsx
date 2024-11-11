@@ -1,5 +1,8 @@
 import { BrowserRouter } from "react-router-dom"
 import {About, Contact, Experience, Tech, Feedbacks, Hero, Navbar, Works, StarsCanvas} from './components'
+import PrivacyPolicy from "./components/PrivacyPolicy"
+import TermsOfService from "./components/TermsOfService"
+
 const App = () => {
 
   return (
@@ -19,6 +22,8 @@ const App = () => {
     <StarsCanvas />
   </div>
 </div>
+<Route path="/easprivacypolicy" element={<PrivacyPolicy />} />
+<Route path="/termsofservice" element={<TermsOfService />} />
 </BrowserRouter>
 
   )

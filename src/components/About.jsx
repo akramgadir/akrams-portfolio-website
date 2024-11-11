@@ -49,7 +49,7 @@ const About = () => {
 
     <motion.p variants={fadeIn("", "", 0.1, 1)} 
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    Following my Software Developer training, I began taking on larger and more challenging projects as a Frontend Developer through personal projects.
+    Following my Software Developer training, I began working as a Full Stack Web Developer and also developed several of my own projects/apps.
     With a robust grasp of Javascript, HTML, CSS, and React, I am dedicated to further developing my technical skills to deliver impactful solutions and create exceptional user experiences.
 
     </motion.p>
